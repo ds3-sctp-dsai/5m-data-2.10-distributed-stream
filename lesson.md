@@ -26,7 +26,7 @@ After installation, please start docker desktop by searching for `docker` in Win
 
 Find the `>_` sign below to open a terminal inside docker.
 
-> WSL user please note that in this case your docker runs on powershell. This is alright as wsl can communicate with Windows docker via network 
+> WSL user please note that in this case your docker runs on powershell. This is alright as WSL can communicate with Windows docker seamlessly. 
 
 When you run the below `docker run` command, the kafka image will first be downloaded onto your machine, if it is not already there. 
 
